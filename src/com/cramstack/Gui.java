@@ -87,6 +87,8 @@ public class Gui extends JFrame {
                 print_path(END_X , END_Y);
                 this.bord[START_X][START_Y] = 1;
             }
+            find_path.setEnabled(false);
+            obstruction.setEnabled(false);
         });
 
         reSetAll.addActionListener(event -> {
